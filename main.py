@@ -41,7 +41,7 @@ def main():
     blur_image = image_to_gaussian(image_array)
     plt.imshow(blur_image)
     plt.show()
-    plt.imsave("0001.png", blur_image)
+    plt.imsave("original_image.png", blur_image)
 
 
 if __name__ == '__main__':
